@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VigilRail | Officer Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <img class="train" src="./trainchuuuuu.png" alt="Blurred train background">
+
+    <div class="loginbox_container">
+        <div class="login-box">
+            <div class="login-logo">
+                <img src="./train.png.jpeg" alt="VigilRail icon">
+                <div class="login-brand-text">
+                    <span class="login-brand-name">VigilRail</span>
+                    <span class="login-brand-tagline">AI Railway Monitoring</span>
+                </div>
+            </div>
+
+            <h1 class="login-title">Officer Login</h1>
+            <p class="login-subtitle">Sign in to access monitoring dashboards and alerts.</p>
+
+            <form class="login-form" onsubmit="goToHome(event)">
+                <label class="field-label" for="username">Username</label>
+                <input id="username" type="text" placeholder="Enter your username" required>
+
+                <label class="field-label" for="password">Password</label>
+                <input id="password" type="password" placeholder="Enter your password" required>
+
+                <button type="submit" class="login-button">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./login.js"></script>
+</body>
+</html>

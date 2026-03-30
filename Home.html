@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VigilRail AI Monitoring System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrap header-inner">
+          <a class="brand" href="#">
+            <img src="./train.png.jpeg" alt="VigilRail logo" class="brand-icon">
+            <div class="brand-text">
+                <span class="brand-name">VigilRail</span>
+                <span class="brand-tagline">AI Railway Monitoring System</span>
+            </div>
+        </a>
+            <nav id="site-nav" class="main-nav" aria-label="Primary">
+                <a href="#">Home</a>
+                <a href="#">Live Feed</a>
+                <a href="#">Alerts</a>
+                <a href="#">Dashboard</a>
+                <a href="#">Login | Register</a>
+            </nav>
+            <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" aria-label="Search">
+        <div class="wrap hero-inner">
+            <div class="breadcrumb">
+                <svg class="breadcrumb-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+                </svg>
+                <span class="breadcrumb-sep">/</span>
+                <span>Indian Railways Monitoring</span>
+            </div>
+            <form class="search-row" action="#" method="get" role="search">
+                <label class="visually-hidden" for="q">Search monitoring data</label>
+                <input id="q" class="search-input" type="search" name="q" placeholder="Search monitoring data, alerts, statistics..." autocomplete="off">
+                <button class="search-btn" type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <main>
+        <section class="welcome">
+            <div class="wrap welcome-inner">
+                <h1 class="welcome-title">Welcome to VigilRail AI Monitoring System</h1>
+                <p class="welcome-text">
+                    Real-time monitoring and analytics for Indian Railways infrastructure, ensuring safety and efficiency across the network.
+                </p>
+                <div class="cta-row">
+                    <a class="btn btn-primary-cta" href="#" id="viewLiveBtn">View Live Feed</a>
+                    <a class="btn btn-alerts-cta" href="#">Recent Alerts</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" aria-labelledby="features-heading">
+            <h2 id="features-heading" class="visually-hidden">Features</h2>
+            <div class="wrap features-grid">
+                <article class="feature-card">
+                    <h3 class="feature-title">Real-Time Monitoring</h3>
+                    <p class="feature-text">Advanced AI-powered surveillance system monitors railway infrastructure 24/7, detecting anomalies and ensuring passenger safety across the Indian Railways network.</p>
+                </article>
+                <article class="feature-card">
+                    <h3 class="feature-title">Alert Management</h3>
+                    <p class="feature-text">Intelligent alert system provides instant notifications for critical events, enabling rapid response and maintaining operational excellence throughout the railway system.</p>
+                </article>
+                <article class="feature-card">
+                    <h3 class="feature-title">Analytics Dashboard</h3>
+                    <p class="feature-text">Comprehensive analytics and insights help track performance metrics, identify trends, and make data-driven decisions for improved railway operations.</p>
+                </article>
+                <article class="feature-card">
+                    <h3 class="feature-title">Infrastructure Safety</h3>
+                    <p class="feature-text">Continuous monitoring of tracks, signals, and stations ensures infrastructure integrity and prevents potential hazards before they become critical issues.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <div class="container"> <footer class="py-5"> <div class="row">
+       <div class="col-6 col-md-2 mb-3"> <h5>Section</h5>
+         <ul class="nav flex-column"> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li> <li class="nav-item mb-2"></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li> </ul> </div> <div class="col-6 col-md-2 mb-3"></li> 
+          </ul> </div> <div class="col-md-5 offset-md-1 mb-3"> <form>
+             </div> </form> </div> </div> <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"> <p>© 2026 VigilRail </p> <ul class="list-unstyled d-flex"> <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li> <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#facebook"></use></svg></a></li> </ul> </div> </footer> </div>
+  <img src="train.svg">
+    <script src="./home.js"></script>
+</body>
+</html>
